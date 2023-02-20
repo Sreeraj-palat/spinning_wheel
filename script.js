@@ -12,5 +12,5 @@ function myfunction(){
 	element.classList.remove('animate');
 	setTimeout(function(){
 		element.classList.add('animate');
-	}, 9999); //5000 = 5 second
+	}, 5000); //5000 = 5 second
 }

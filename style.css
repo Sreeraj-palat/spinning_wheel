@@ -26,13 +26,13 @@
   .mainbox:after{
     position: absolute;
     content: '';
-    width: 32px;
-    height: 32px;
-    background: url('arrow-left.png');
-    background-size: 32px;
+    width: 55px;
+    height: 41px;
+    background: url('images/arrow.png');
+    background-size: 55px;
     right: -30px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
   }
   .box{
     width: 100%;
@@ -41,7 +41,7 @@
     border-radius: 50%;
     border: 10px solid #fff;
     overflow: hidden;
-    transition: all ease 5s;
+    transition: all linear 20s;
   }
   span{
     width: 50%;
