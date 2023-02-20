@@ -2,7 +2,7 @@ function myfunction(){
 
 
 	var x = 1024; //min value
-	var y = 9999; // max value
+	var y = 99999; // max value
 
 	var deg = Math.floor(Math.random() * (x - y)) + y;
 
